@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h2>📚 BookNest</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="form-section">
+
+    <div class="form-box">
+
+        <h1>Contact Us</h1>
+
+        <form onsubmit="sendMessage(event)">
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                placeholder="Your Message"
+                required>
+            </textarea>
+
+            <button class="btn" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+        <p id="contactMessage"></p>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 BookNest</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

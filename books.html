@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest - Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>📚 BookNest</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="section">
+
+    <h1>Our Books</h1>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search books..."
+        onkeyup="searchBooks()"
+    >
+    <div class="books" id="bookList"></div>
+
+</section>
+
+<footer>
+    <p>© 2026 BookNest</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
